@@ -39,8 +39,7 @@ An array is a collection of different data types which are ordered and changeabl
 
 ### How to create an empty array
 
-In JavaScript, we can create an array in different ways.
-It is very common to use *const* instead of *let* to declare an array variable. If you ar using const it means you do not use that variable name again.
+It is very common to use *const* instead of *let* to declare an array variable. If you are using const it means you do not use that variable name again.
 
 - Using Array constructor
 
@@ -68,14 +67,19 @@ Array with initial values. We use _length_ property to find the length of an arr
 
 ```js
 const numbers = [0, 3.14, 9.81, 37, 98.6, 100] // array of numbers
+
 const fruits = ['banana', 'orange', 'mango', 'lemon'] // array of strings, fruits
+
 const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot'] // array of strings, vegetables
+
 const animalProducts = ['milk', 'meat', 'butter', 'yoghurt'] // array of strings, products
+
 const webTechs = ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'MongDB'] // array of web technologies
+
 const countries = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland'] // array of strings, countries
 
-// Print the array and its length
 
+// Print the array and its length
 console.log('Numbers:', numbers)
 console.log('Number of numbers:', numbers.length)
 
@@ -150,7 +154,7 @@ console.log(words)
 
 We access each element in an array using their index. An array index starts from 0. The picture below clearly shows the index of each element in the array.
 
-![arr index](../images/array_index.png)
+![arr index](/images/array_index.png)
 
 ```js
 const fruits = ['banana', 'orange', 'mango', 'lemon']
